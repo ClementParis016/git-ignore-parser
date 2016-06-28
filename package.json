@@ -1,7 +1,7 @@
 {
   "name": "git-ignore-parser",
   "version": "0.0.1",
-  "description": "Parse a given input as a .gitignore",
+  "description": "A Node.js module to parse raw gitignore data",
   "author": "Clément Paris <hello@clementparis.fr> (http://www.clementparis.fr/)",
   "repository": "ClementParis016/git-ignore-parser",
   "license": "MIT",
