@@ -1,0 +1,29 @@
+{
+  "name": "git-ignore-parser",
+  "version": "0.0.1",
+  "description": "Parse a given input as a .gitignore",
+  "author": "Clément Paris <hello@clementparis.fr> (http://www.clementparis.fr/)",
+  "repository": "ClementParis016/git-ignore-parser",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "git-ignore",
+    ".gitignore",
+    "ignore",
+    "parser",
+    "cli"
+  ],
+  "preferGlobal": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
