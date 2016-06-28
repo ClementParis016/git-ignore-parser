@@ -19,7 +19,7 @@ describe('Parser', () => {
   });
 
   it('should remove trailing spaces', () => {
-    const src = 'foo  \nbar\nfoobar \nfoobarbar\ ';
+    const src = 'foo  \nbar\nfoobar \nfoobarbar\\ ';
     const expected = ['foo', 'bar', 'foobar', 'foobarbar '];
     expect(parser(src)).to.deep.equal(expected);
   });
