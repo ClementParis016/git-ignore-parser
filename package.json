@@ -13,10 +13,9 @@
     "parser",
     "cli"
   ],
-  "preferGlobal": true,
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "eslint lib/** && mocha test.js"
   },
   "engines": {
     "node": ">=6"
@@ -24,6 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^2.13.1",
     "mocha": "^2.5.3"
   }
 }
