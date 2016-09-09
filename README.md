@@ -24,9 +24,11 @@ jspm_packages
 It would return the following:
 ```js
 const fs = require('fs');
+const gitIgnoreParser = require('git-ignore-parser');
 
-fs.readFile('.gitignore', 'utf-8', (error, ignoredPaths) {
+fs.readFile('.gitignore', 'utf-8', (error, data) {
   if (!error) {
+    const ignoredPaths = gitIgnoreParser(data);
     console.log(ignoredPaths);
       // >> ['logs', '*.log', 'npm-debug.log*', 'node_modules', 'jspm_packages']
   }
