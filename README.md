@@ -1,6 +1,8 @@
 # git-ignore-parser
 > A Node.js module to parse raw gitignore data
 
+**WARNING**: this tool is a work-in-progress and might be unstable or unsuitable for serious use.
+
 This modules parses a raw gitignore content, as specified in the [official Git documentation](https://git-scm.com/docs/gitignore#_pattern_format), and returns an array of ignored paths that Git will look against.
 
 ## Installation
