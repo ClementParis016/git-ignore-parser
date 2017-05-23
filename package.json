@@ -1,6 +1,6 @@
 {
   "name": "git-ignore-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Node.js module to parse raw gitignore data",
   "author": "Clément Paris <hello@clementparis.fr> (http://www.clementparis.fr/)",
   "repository": "ClementParis016/git-ignore-parser",
